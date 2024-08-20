@@ -19,17 +19,23 @@
 ## Установка
 
 1. **Клонируйте репозиторий:**
-   ```bash
-   git clone https://github.com/yourusername/dog_walking.git
+   ```[
+   bash
+   git clone https://github.com/maxim1903/dog_walking.git
    cd dog_walking
+]
 
 2. **Установка зависимости:**
-    ```pip install Flask Flask-SQLAlchemy
+    ```[
+    pip install Flask Flask-SQLAlchemy
+]
 
 ## Запуск приложения
 
 1. **Запустите сервер Flask:**
-    ```python app.py
+    ```[
+    python app.py
+]
 
 ## Использование API
 1. **Пример запроса::**
