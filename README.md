@@ -23,25 +23,21 @@
    bash
    git clone https://github.com/maxim1903/dog_walking.git
    cd dog_walking
-]
 
 2. **Установка зависимости:**
     ```[
     pip install Flask Flask-SQLAlchemy
-]
 
 ## Запуск приложения
 
 1. **Запустите сервер Flask:**
     ```[
     python app.py
-]
 
 ## Использование API
 1. **Пример запроса::**
     ```[
     curl -X GET "http://127.0.0.1:5000/orders/2024-08-20"
-    ]
 
 2. **Пример ответа:**
     ```[
@@ -52,7 +48,6 @@
         "start_time": "2024-08-20T07:00:00",
         "end_time": "2024-08-20T07:30:00"
     }
-]
 
 3. **Создание нового заказа:**
     ```[
@@ -63,14 +58,15 @@
      "pet_name": "Rex",
      "breed": "Labrador",
      "start_time": "2024-08-20T07:00:00"
-   }']
+   }'
 
 4. **Ответ на создание:**
-    ```[{
+    ```[
+    {
     "id": 1,
     "apartment_number": "10A",
     "pet_name": "Rex",
     "breed": "Labrador",
     "start_time": "2024-08-20T07:00:00",
     "end_time": "2024-08-20T07:30:00"
-   }]
+   }
