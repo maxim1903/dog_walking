@@ -33,7 +33,9 @@
 
 ## Использование API
 1. **Пример запроса::**
-    ```curl -X GET "http://127.0.0.1:5000/orders/2024-08-20"
+    ```[
+    curl -X GET "http://127.0.0.1:5000/orders/2024-08-20"
+    ]
 
 2. **Пример ответа:**
     ```[
@@ -47,21 +49,22 @@
 ]
 
 3. **Создание нового заказа:**
-    ```curl -X POST "http://127.0.0.1:5000/orders" \
--H "Content-Type: application/json" \
--d '{
-  "apartment_number": "10A",
-  "pet_name": "Rex",
-  "breed": "Labrador",
-  "start_time": "2024-08-20T07:00:00"
-}'
+    ```[
+    curl -X POST "http://127.0.0.1:5000/orders" \
+   -H "Content-Type: application/json" \
+   -d '{
+     "apartment_number": "10A",
+     "pet_name": "Rex",
+     "breed": "Labrador",
+     "start_time": "2024-08-20T07:00:00"
+   }']
 
 4. **Ответ на создание:**
-    ```{
+    ```[{
     "id": 1,
     "apartment_number": "10A",
     "pet_name": "Rex",
     "breed": "Labrador",
     "start_time": "2024-08-20T07:00:00",
     "end_time": "2024-08-20T07:30:00"
-}
+   }]
